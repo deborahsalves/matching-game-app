@@ -17,9 +17,8 @@ export const App = () => {
 
     return (
         <div className='app'>
-            {console.log(`allPlayers at App.js: array of objects`)}
             <NavBar allPlayers={allPlayers}/>
-            <GameBoard />
+            <GameBoard cardsArray={[]}/>
         </div>
     )
 

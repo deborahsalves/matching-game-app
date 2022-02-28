@@ -1,0 +1,7 @@
+.card-game{
+    display: inline-flex;
+    width: 12rem;
+    height: 16rem;
+    overflow: hidden;
+    background-color: var(--color-alura);
+}
