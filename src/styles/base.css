@@ -1,0 +1,9 @@
+body, html{
+    font-size: 10px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+body{
+    width: 360px;
+    height: 100%;
+    margin: 0 auto;
+}
