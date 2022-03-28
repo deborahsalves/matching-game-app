@@ -1,7 +1,15 @@
-.card-game{
-    display: inline-flex;
-    width: 12rem;
-    height: 16rem;
-    overflow: hidden;
+.card-game {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--width);
+    height: var(--height);
     background-color: var(--color-alura);
+  }
+
+.card-image{
+    margin: auto;
+    width: auto;
+    height: auto;
 }
